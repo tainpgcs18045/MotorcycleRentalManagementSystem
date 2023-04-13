@@ -1,0 +1,33 @@
+//Abstracts
+@import './Abstracts/variable';
+
+//Base
+@import './Base/base';
+
+//Components
+@import './Components/nav';
+@import './Components/footer';
+@import './Components/banner';
+@import './Components/swiper';
+@import './Components/card';
+@import './Components/pagenumber';
+@import './Components/modal';
+@import './Components/popup';
+@import './Components/gallery';
+@import './Components/table';
+
+//Swiper component
+@import "swiper/scss";
+@import "swiper/scss/pagination";
+@import "swiper/scss/navigation";
+
+
+//Pages
+@import './Pages/404';
+@import './Pages/list';
+@import './Pages/bikedetail';
+
+
+
+//Image gallery
+@import "~react-image-gallery/styles/scss/image-gallery.scss";

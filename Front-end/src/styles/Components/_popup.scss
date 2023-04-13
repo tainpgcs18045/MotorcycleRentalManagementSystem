@@ -1,0 +1,10 @@
+.public {
+    .popup-view{
+        &-body{
+            .body-title{
+                color: $color-gray-75;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.page-404 {
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+
+    h1,
+    h2 {
+        color: $color-black;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+    }
+
+    // @media screen and (max-width: 1095px) {
+
+    // }
+}

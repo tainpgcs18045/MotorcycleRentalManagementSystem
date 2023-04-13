@@ -1,0 +1,203 @@
+.card-item {
+    display: block;
+    margin-top: 20px;
+
+    img {
+        display: block;
+        min-height: 14rem;
+        max-height: 14rem;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .bikeName {
+        font-weight: 700;
+        font-size: 18px;
+        color: $color-orange;
+        margin-bottom: 0.5rem;
+    }
+
+    .bikeTag {
+        margin-bottom: 0.5rem;
+
+        // .badge {
+        //     background-color: $color-green  !important;
+        //     overflow-wrap: break-word !important;
+        // }
+    }
+
+    .bikePrice {
+        color: $color-coral;
+        font-weight: 600;
+
+        span {
+            font-weight: 500;
+            color: $color-black;
+        }
+    }
+
+    &:hover {
+        img {
+            opacity: .8;
+        }
+
+        .btn-remove {
+            background-color: $color-danger;
+            color: $color-white;
+        }
+    }
+
+    .btn-remove {
+        position: relative;
+        bottom: 16.3rem;
+        left: 16.5rem;
+        color: transparent;
+    }
+}
+
+.card-value {
+    font-size: 40px;
+    font-weight: 600;
+
+    &-primary,
+    &-undefined {
+        color: $color-blue !important;
+    }
+
+    &-success {
+        color: $color-green !important;
+    }
+
+    &-info {
+        color: $color-cyan !important;
+    }
+
+    &-danger {
+        color: $color-red !important;
+    }
+
+    &-warning {
+        color: $color-orange !important;
+    }
+}
+
+.card-custom {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    &-primary,
+    &-undefined {
+        border-bottom: 3px solid $color-blue !important;
+
+        &:hover {
+            border: 3px solid $color-blue !important;
+        }
+    }
+
+    &-success {
+        border-bottom: 3px solid $color-green !important;
+
+        &:hover {
+            border: 3px solid $color-green !important;
+        }
+    }
+
+    &-info {
+        border-bottom: 3px solid $color-cyan !important;
+
+        &:hover {
+            border: 3px solid $color-cyan !important;
+        }
+    }
+
+    &-danger {
+        border-bottom: 3px solid $color-red !important;
+
+        &:hover {
+            border: 3px solid $color-red !important;
+        }
+    }
+
+    &-warning {
+        border-bottom: 3px solid $color-orange !important;
+
+        &:hover {
+            border: 3px solid $color-orange !important;
+        }
+    }
+
+    &-header {
+        padding-bottom: 0px !important;
+    }
+
+    &-content {
+        padding-bottom: 16px !important;
+    }
+
+    &-header-b {
+        padding-bottom: 0px !important;
+
+        .MuiTypography-h5 {
+            font-weight: 600 !important;
+        }
+    }
+}
+
+.card-icon {
+    align-self: center;
+    padding: 0.8rem;
+
+    &-avatar {
+        width: 70px !important;
+        height: 70px !important;
+
+        &-image {
+            width: 40px !important;
+            height: 40px !important;
+        }
+
+        &-primary,
+        &-undefined {
+            background-color: $color-blue !important;
+        }
+
+        &-success {
+            background-color: $color-green !important;
+        }
+
+        &-info {
+            background-color: $color-cyan !important;
+        }
+
+        &-danger {
+            background-color: $color-red !important;
+        }
+
+        &-warning {
+            background-color: $color-orange !important;
+        }
+
+    }
+}
+
+.MuiCardHeader-title {
+    font-size: 16px !important;
+}
+
+.bikeManualId {
+    margin-bottom: 16px;
+}
+
+.bikeHiredNumber {
+    color: #1565c0;
+    font-weight: 600;
+    font-size: 20px;
+
+    span {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}

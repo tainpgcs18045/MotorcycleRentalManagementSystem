@@ -1,0 +1,12 @@
+.row {
+    .column {
+        min-height: 20rem;
+        max-height: 20rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding: 0px 10px;
+        margin-bottom: 30px;
+    }
+}

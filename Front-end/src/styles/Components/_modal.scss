@@ -1,0 +1,65 @@
+.popup {
+    &-container {
+        background-color: $color-white;
+        padding: 16px;
+        min-height: 50%;
+        width: 50%;
+        margin: 5% auto;
+    }
+
+    &-title {
+        text-align: center;
+        margin: 0 0 32px 0;
+    }
+
+    &-view {
+        &-body {
+            margin-bottom: 16px;
+
+            .body {
+                &-title {
+                    line-height: 24px;
+                    font-size: 18px;
+                    vertical-align: middle;
+                    font-weight: 500;
+                    margin-bottom: 8px;
+                }
+
+                &-icon {
+                    margin-right: 0.5rem;
+                    margin-bottom: 8px;
+                    font-size: 24px;
+                    color: $color-coral;
+                }
+
+                &-detail {
+                    margin-left: 2rem;
+                    margin-bottom: 32px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $color-gray-75;
+                }
+            }
+        }
+    }
+
+    &-button {
+        display: flex;
+        justify-content: center;
+
+        .btn-cancel {
+            margin-right: 8px;
+            width: 100%;
+        }
+
+        .btn-action {
+            margin-left: 8px;
+            width: 100%;
+        }
+
+        .btn-cancel-view {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.MuiPagination-ul {
+    justify-content: center;
+}
+
+.MuiPaginationItem-root {
+    color: $color-coral !important;
+    font-weight: 600 !important;
+}
+
+.Mui-selected {
+    color: $color-white !important;
+    background-color: $color-coral !important;
+}
+
+.MuiSelect-select {
+    color: $color-coral !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding-left: 0px !important;
+}
+
+.MuiTablePagination-selectLabel {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.MuiSelect-icon {
+    color: $color-tomato !important;
+}

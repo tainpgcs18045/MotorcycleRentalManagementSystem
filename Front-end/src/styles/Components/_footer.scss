@@ -1,0 +1,45 @@
+#footer {
+    background-color: $color-black;
+    padding: 2.5rem 4.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 9rem;
+    // position: absolute;
+    // top: 80%;
+    // position: absolute;
+    // transform: translate(0%, -20%);
+
+    p,
+    a {
+        color: $color-white;
+    }
+
+    span {
+        color: $color-coral;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+
+        @media screen and (max-width: 992px) {
+            padding-left: 0;
+            padding-top: 20px;
+        }
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 20px 20px 0;
+    }
+
+    .icon {
+        fill: $color-coral;
+    }
+
+    .info:hover {
+        color: $color-coral;
+    }
+}

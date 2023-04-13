@@ -1,0 +1,91 @@
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: $color-coral !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: $color-coral;
+    color: $color-white;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: $color-coral;
+    color: $color-white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: $color-coral;
+    color: $color-white;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .55);
+}
+
+.dropdown-item {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .55);
+    padding: 0.5rem !important;
+}
+
+.dropdown-menu {
+    padding: 0rem !important;
+
+    @media screen and (max-width: 992px) {
+        text-align: center;
+    }
+}
+
+.dropdown-divider {
+    margin: 0rem !important;
+}
+
+.MuiTypography-body1 {
+    font-weight: 600 !important;
+    color: rgba(0, 0, 0, .55);
+}
+
+.item-button {
+    padding: 4px 8px !important;
+}
+
+.item-icon {
+    color: $color-coral;
+}
+
+.item-button:focus,
+.item-button:hover {
+    background-color: $color-coral !important;
+
+    .item-icon {
+        color: $color-white;
+    }
+
+}
+
+.btn-user {
+    padding: 0.2rem 1.2rem !important;
+    border: 1px $color-coral solid !important;
+    border-radius: 0.25rem !important;
+    color: $color-coral !important;
+    background-color: $color-white !important;
+
+    &:hover,
+    &:focus {
+        background-color: $color-white !important;
+        color: $color-coral !important;
+    }
+}
+
+.user-menu:hover {
+    background-color: $color-coral !important;
+    color: $color-white !important;
+}
